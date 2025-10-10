@@ -1,0 +1,156 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-image: url('#'); /* Арын зураг */
+  background-size: cover; /* Зураг бүх дэлгэцэд */
+  background-position: center;
+  color: rgb(153, 51, 51);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header nav {
+  margin-bottom: 20px;
+}
+
+header nav a {
+  color: rgb(194, 17, 17);
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+header nav a.active {
+  text-decoration: underline;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-top: 10px;
+}
+
+
+.intro {
+  background-image: url('backround.jpg'); /* Intro хэсгийн арын зураг */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px;
+  color: rgb(229, 52, 52);
+}
+
+.intro h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.intro .btn {
+  background-color: red;
+  color: rgb(247, 242, 242);
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+.products {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid #c60f0f;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  background-color: #c42828;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.product p.price {
+  font-weight: bold;
+  color: red;
+}
+
+
+.order-form {
+  padding: 50px 20px;
+  background-color: #f5f2f2;
+}
+
+.order-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.order-form form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.order-form label {
+  font-weight: bold;
+}
+
+.order-form input, .order-form select, .order-form button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #c7c7ce;
+}
+
+.order-form button {
+  background-color: rgb(198, 20, 20);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #d8bbbb;
+  color: white;
+}

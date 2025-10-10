@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Red Fashion Boutique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header>
+    <nav>
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#products" class="nav-link">Products</a>
+      <a href="#order" class="nav-link">Order</a>
+    </nav>
+    <h1> NEMONE RED CLOTHES</h1>
+  </header>
+
+  
+  <section id="home" class="intro">
+    <h2>Welcome to Red Fashion</h2>
+    <p>Discover elegant red clothing that makes you shine with confidence and beauty.</p>
+    <a href="#products" class="btn">Shop Now</a>
+  </section>
+
+
+  <section id="products" class="products">
+    <h2>Our Collection</h2>
+    <div class="product-list">
+
+      <div class="product">
+        <img src="images/ulaan dress.jpg" alt="Red Dress">
+        <h3>Red Elegant Dress</h3>
+        <p>Perfect for formal events and parties.</p>
+        <p class="price">100,000₮</p>
+      </div>
+
+      <div class="product">
+        <img src="images/tsamts.jpg" alt="Red Shirt">
+        <h3>Red Cotton Shirt</h3>
+        <p>Soft, breathable, and stylish for daily wear.</p>
+        <p class="price">80,000₮</p>
+      </div>
+
+      <div class="product">
+        <img src="images/yubik.jpg" alt="Red Skirt">
+        <h3>Red Mini Skirt</h3>
+        <p>Trendy and bold choice for modern women.</p>
+        <p class="price">70,000₮</p>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section id="order" class="order-form">
+    <h2>Place Your Order</h2>
+    <form onsubmit="alert('Your order has been successfully submitted!'); return false;">
+      <label for="product">Choose Product:</label>
+      <select id="product" required>
+        <option value="">Select an item</option>
+        <option>Red Elegant Dress</option>
+        <option>Red Cotton Shirt</option>
+        <option>Red Mini Skirt</option>
+      </select>
+
+      <label for="size">Select Size:</label>
+      <select id="size" required>
+        <option value="">Choose size</option>
+        <option>Small (S)</option>
+        <option>Medium (M)</option>
+        <option>Large (L)</option>
+      </select>
+
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" placeholder="Enter your address" required>
+
+      <label for="payment">Payment Method:</label>
+      <select id="payment" required>
+        <option value="">Select method</option>
+        <option>Cash on Delivery</option>
+        <option>Credit Card</option>
+      </select>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+
+  <footer>
+    &copy; 2025 Red Fashion Boutique | All Rights Reserved
+  </footer>
+
+</body>
+</html>
